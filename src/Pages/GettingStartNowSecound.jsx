@@ -6,8 +6,7 @@ const GettingStartNowSecound = () => {
   return (
     <div>
       <div className="bg02 h-screen flex-col sm:flex-row  flex justify-center items-center gap-10">
-        <img className="sm:h-[25rem] sm:w-[35rem] h-[15rem] w-[20rem]" src={userimage} />
-        <div className="max-w-[40rem] sm:mt-[-10rem] mt-[-6rem] sm:mx-0 mx-10">
+      <div className="max-w-[40rem] sm:mt-[-10rem] mt-[-6rem] sm:mx-0 mx-10">
           <h1 className="text-center sm:text-left mt-[5rem] text-4xl font-bold text-black">
             24 x 7 dedicated Technical Support for connection problem
           </h1>
@@ -23,6 +22,8 @@ const GettingStartNowSecound = () => {
             Getting Started Now
           </button>
         </div>
+        <img className="sm:h-[25rem] sm:w-[35rem] h-[15rem] w-[20rem]" src={userimage} />
+        
       </div>
     </div>
   );
