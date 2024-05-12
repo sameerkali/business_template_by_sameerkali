@@ -43,7 +43,7 @@ const Testimonials = () => {
 
   return (
     <div className="container mx-auto py-8 h-screen">
-      <div className="text-center mt-28 mb-28">
+      <div className="text-center mt-28 mb-28 sm:mx-0 mx-10">
         <h2 className="text-3xl mb-2 font-bold">We Give Awesome Service,</h2>
         <h2 className="text-3xl font-bold">
           See How{" "}

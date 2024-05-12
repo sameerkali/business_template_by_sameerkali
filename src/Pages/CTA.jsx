@@ -6,7 +6,7 @@ import image3 from "../assets/cta03.png";
 
 const CTA = () => {
   return (
-    <div className="h-[60rem]">
+    <div className="">
       <div className="">
         <h1 className=" text-center mt-[5rem] text-4xl font-bold">
           Get Ready for Ultra Speed Internet
@@ -19,7 +19,7 @@ const CTA = () => {
           We’re bring gigabit Internet to all our customers, starting in 2018.
         </p>
       </div>
-      <div className="flex justify-around mt-20">
+      <div className="flex flex-col sm:flex-row  justify-around mt-20 ">
         <CtaCard
           title="Download upto 1Gbps"
           image={image1}

@@ -4,6 +4,7 @@ import logo from "../assets/logos/logo(5).png";
 import { AiFillInstagram } from "react-icons/ai";
 
 const Footer = () => {
+  console.log("a tag error in footer")
   return (
     <footer className="bg-[#0E0C15]">
       <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
