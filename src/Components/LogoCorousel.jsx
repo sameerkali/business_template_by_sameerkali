@@ -9,11 +9,12 @@ import logo7 from '../assets/logos/logo(7).png';
 import logo8 from '../assets/logos/logo(8).png';
 import logo9 from '../assets/logos/logo(9).png';
 
-// Create an array to store imported logos
 const logos = [logo1, logo2, logo3, logo4, logo5, logo6, logo7, logo8, logo9];
 
 const LogoCarousel = () => {
     return (
+        <div className=' mb-10'>
+
         <Slider
             width="250px"
             duration={40}
@@ -27,6 +28,7 @@ const LogoCarousel = () => {
                 </Slider.Slide>
             ))}
         </Slider>
+        </div>
     );
 };
 

@@ -6,6 +6,8 @@ import GettingStartNow from "./Pages/GettingStartNow";
 import GettingStartNowSecound from "./Pages/GettingStartNowSecound";
 import Stats from "./Pages/Stats";
 import Testimonials from "./Pages/Testimonials";
+import FeaturesTwo from "./Pages/FeaturesTwo";
+import Footer from "./Components/Footer";
 
 
 const Home = () => {
@@ -20,6 +22,8 @@ const Home = () => {
     <Features/>
     <Testimonials/>
     <LogoCorousel/>
+    <FeaturesTwo/>
+    <Footer/>
     </div>
   )
 };

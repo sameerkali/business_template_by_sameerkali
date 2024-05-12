@@ -2,6 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+  overflow-x: hidden;
+}
 .home {
   background-image: repeating-linear-gradient(
       94deg,
