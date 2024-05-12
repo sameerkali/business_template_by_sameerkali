@@ -1,43 +1,29 @@
 import React from "react";
-import { MdPeopleAlt } from "react-icons/md";
-import { FaWifi } from "react-icons/fa";
-import { CiHeart } from "react-icons/ci";
-import { HiAdjustmentsHorizontal } from "react-icons/hi2";
-
-const Item = ({ icon, number, text }) => {
-  const renderIcon = () => {
-    switch (icon) {
-      case "MdPeopleAlt":
-        return <MdPeopleAlt size={50} color="green" />;
-      case "FaWifi":
-        return <FaWifi size={50} color="#2baaf9" />;
-      case "CiHeart":
-        return <CiHeart size={50} color="red" />;
-      case "HiAdjustmentsHorizontal":
-        return <HiAdjustmentsHorizontal size={50} color="#3db977" />;
-      default:
-        return null;
-    }
-  };
-
-  return (
-    <div className="flex flex-col items-center text-center">
-      {renderIcon()}
-      <p className="text-6xl mt-3">{number}</p>
-      <p className="text-[13px] mt-2">{text}</p>
-    </div>
-  );
-};
+import imageWifi from "../assets/features/wifi.png";
+import imageHotspot from "../assets/features/super-speed.png";
+import imageCustomize from "../assets/features/customize.png";
 
 const Features = () => {
   return (
-    <div className="bg-[#223140] text-white flex items-center justify-around px-56  h-[20rem]">
-    <Item icon="MdPeopleAlt" number="3654+" text="SUBSCRIBERS" />
-    <Item icon="FaWifi" number="300+" text="AREAS COVERED" />
-    <Item icon="CiHeart" number="2500+" text="LOVED BY" />
-    <Item icon="HiAdjustmentsHorizontal" number="20+" text="CUSTOMIZABLE" />
-</div>
+    <div className="bg-[#0077db] text-white flex items-center justify-around px-56  h-[20rem]">
+      <div className="">
+        <h1 className="font-2xl">Benefits of Ultranet Internet.</h1>
+        <h1 className="text-6xl font-bold ">Super Fast</h1>
+      </div>
+      <div>
+        <img src={imageWifi} alt="icon" />
+        <h1 className="font-2xl text-center mt-4">wifi Hotspot</h1>
+      </div>
 
+      <div>
+        <img src={imageHotspot} alt="icon" />
+        <h1 className="font-2xl text-center mt-4">Super-Fast Speeds</h1>
+      </div>
+      <div>
+        <img src={imageCustomize} alt="icon" />
+        <h1 className="font-2xl text-center mt-4">Bundle Your Pack</h1>
+      </div>
+    </div>
   );
 };
 

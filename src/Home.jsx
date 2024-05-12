@@ -1,11 +1,11 @@
 import Corousel from "./Components/Corousel";
-import CtaCard from "./Components/CtaCard";
-import Header from "./Components/Header";
+import LogoCorousel from "./Components/LogoCorousel";
 import CTA from "./Pages/CTA";
 import Features from "./Pages/Features";
 import GettingStartNow from "./Pages/GettingStartNow";
 import GettingStartNowSecound from "./Pages/GettingStartNowSecound";
 import Stats from "./Pages/Stats";
+import Testimonials from "./Pages/Testimonials";
 
 
 const Home = () => {
@@ -18,6 +18,8 @@ const Home = () => {
     <GettingStartNow/>
     <GettingStartNowSecound/>
     <Features/>
+    <Testimonials/>
+    <LogoCorousel/>
     </div>
   )
 };
