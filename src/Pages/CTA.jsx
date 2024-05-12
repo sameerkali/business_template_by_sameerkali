@@ -7,7 +7,7 @@ import image3 from "../assets/cta03.png";
 const CTA = () => {
   return (
     <div className="">
-      <div className="">
+      <div className="sm:mx-0 mx-10">
         <h1 className=" text-center mt-[5rem] text-4xl font-bold">
           Get Ready for Ultra Speed Internet
         </h1>
@@ -36,19 +36,19 @@ const CTA = () => {
           description="Praesent tincidunt porttitor libero, id sodales enim tincidunt. Proin dignissim leo finibus risus."
         />
       </div>
-      <hr className="max-w-[60rem] mx-auto border-dotted mt-20 bg-gray-300" />
+      <hr className="sm:max-w-[60rem] max-w-[20rem] mx-auto border-dotted mt-20 bg-gray-300" />
 
-      <div className="">
+      <div className="sm:mx-0 mx-10">
         <h1 className=" text-center mt-[5rem] text-3xl ">
         Thank you for Voting Us!
         </h1>
-        <p className=" text-center mt-5 text-6xl font-bold text-black">
+        <p className=" text-center mt-5 text-4xl sm:text-6xl font-bold text-black">
         “The Most Recommended Internet Service 
         </p>
-        <p className=" text-center text-black mt-5 text-6xl font-bold">
+        <p className=" text-center text-black mt-0 sm:mt-5 text-4xl sm:text-6xl font-bold">
         Provider”
         </p>
-        <p className=" text-center text-gray-500 mt-10 ">
+        <p className=" text-center text-gray-500 mt-10 mb-10">
         — Themeforest’s Magazine 2018 & 2019
         </p>
       </div>
