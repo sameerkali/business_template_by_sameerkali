@@ -8,6 +8,7 @@ import Stats from "./Pages/Stats";
 import Testimonials from "./Pages/Testimonials";
 import FeaturesTwo from "./Pages/FeaturesTwo";
 import Footer from "./Components/Footer";
+import UserTestemonials from "./Components/UserTestemonials";
 
 
 const Home = () => {
@@ -15,6 +16,7 @@ const Home = () => {
 
     <div>
     <Corousel/>
+    <UserTestemonials/>
     <CTA/>
     <Stats/>
     <GettingStartNow/>
